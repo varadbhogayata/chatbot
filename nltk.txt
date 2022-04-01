@@ -1,1 +1,5 @@
+wordnet
+porter_test
 punkt
+reuters
+stopwords
