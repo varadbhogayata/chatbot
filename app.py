@@ -1,6 +1,7 @@
 # libraries
 import random
 import numpy as np
+from flask_cors import CORS
 import pickle
 import json
 from flask import Flask, render_template, request, jsonify
@@ -15,6 +16,7 @@ words = pickle.load(open("words.pkl", "rb"))
 classes = pickle.load(open("classes.pkl", "rb"))
 
 app = Flask(__name__)
+CORS(app)
 
 
 # run_with_ngrok(app)
