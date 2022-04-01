@@ -51,6 +51,7 @@ def chatbot_response():
 
 @app.route("/get_response", methods=["POST"])
 def chatbot_response1():
+
     msg = request.form["msg"]
     if msg.startswith('my name is'):
         name = msg[11:]
@@ -67,8 +68,13 @@ def chatbot_response1():
         res = get_response(ints, intents)
 
     if res:
-        return jsonify(data=res, success=True)
-    return jsonify(data='None', success=False)
+        response = jsonify(data=res, success=True)
+        # Enable Access-Control-Allow-Origin
+        # response.headers.add("Access-Control-Allow-Origin", "*")
+        return response
+
+    response = jsonify(data='None', success=False)
+    return response
 
 
 if __name__ == "__main__":
