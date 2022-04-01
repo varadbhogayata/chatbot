@@ -3,3 +3,4 @@ porter_test
 punkt
 reuters
 stopwords
+omw-1.4

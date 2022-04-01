@@ -16,6 +16,7 @@ CORS(app)
 
 # run_with_ngrok(app)
 import nltk
+# nltk.download('all')
 import random
 import numpy as np
 from nltk.stem import WordNetLemmatizer
