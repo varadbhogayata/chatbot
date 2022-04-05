@@ -62,68 +62,68 @@
         {
             "tag": "lab",
             "patterns": ["lab report", "report", "lab reports", "reports", "where can I find my lab reports?", "how do I find my lab reports?"],
-            "responses": ["https://cse545group2.live/patient/viewLabTests"],
+            "responses": ["/patient/viewLabTests"],
             "context": [""]
         },
 
         {
             "tag": "update",
             "patterns": ["update information", "personal information", "info", "update", "update details"],
-            "responses": ["https://cse545group2.live/patient/updateinfo"],
+            "responses": ["/patient/updateinfo"],
             "context": [""]
         },
         {
             "tag": "book",
             "patterns": ["book","book an appointment", "schedule", "schedule an appointment", "book appointment"],
-            "responses": ["https://cse545group2.live/patient/bookappointment"],
+            "responses": ["/patient/bookappointment"],
             "context": [""]
         },
         {
             "tag": "schedule",
             "patterns": ["schedule", "book an appointment", "schedule", "schedule an appointment", "book appointment"],
-            "responses": ["https://cse545group2.live/patient/bookappointment"],
+            "responses": ["/patient/bookappointment"],
             "context": [""]
         },
         {
             "tag": "diagnosis",
             "patterns": ["diagnosis", "diagnosis report", "where can I find my diagnosis reports?"],
-            "responses": ["https://cse545group2.live/patient/viewAllDiagnosisReports"],
+            "responses": ["/patient/viewAllDiagnosisReports"],
             "context": [""]
         },
         {
             "tag": "pay",
             "patterns": ["make","make payment", "make payments"],
-            "responses": ["https://cse545group2.live/patient/viewPendingPayments"],
+            "responses": ["/patient/viewPendingPayments"],
             "context": [""]
         },
         {
             "tag": "request",
             "patterns": ["insurance request","raise", "insurance raise", "insurance raise request", "insurance request", "insurance query"],
-            "responses": ["https://cse545group2.live/patient/getInsuranceDetails"],
+            "responses": ["/patient/getInsuranceDetails"],
             "context": [""]
         },
         {
             "tag": "claim",
             "patterns": ["claim", "claims", "insurance claim", "insurance claims", "view claims"],
-            "responses": ["https://cse545group2.live/patient/viewClaimHistory"],
+            "responses": ["/patient/viewClaimHistory"],
             "context": [""]
         },
         {
             "tag": "appointment",
             "patterns": ["view appointments", "see appointments", "appointments"],
-            "responses": ["https://cse545group2.live/patient/viewAppointmentHistory"],
+            "responses": ["/patient/viewAppointmentHistory"],
             "context": [""]
         },
         {
             "tag": "payment",
             "patterns": ["view payment", "view payments", "see transaction"],
-            "responses": ["https://cse545group2.live/patient/viewPaymentHistory"],
+            "responses": ["/patient/viewPaymentHistory"],
             "context": [""]
         },
         {
             "tag": "patient",
             "patterns": ["home page", "patient portal"],
-            "responses": ["https://cse545group2.live/patient/home"],
+            "responses": ["/patient/home"],
             "context": [""]
         }
     ]
