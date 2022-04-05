@@ -62,68 +62,68 @@
         {
             "tag": "lab",
             "patterns": ["lab report", "report", "lab reports", "reports", "where can I find my lab reports?", "how do I find my lab reports?"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewLabTests"],
+            "responses": ["https://cse545group2.live/patient/viewLabTests"],
             "context": [""]
         },
 
         {
             "tag": "update",
             "patterns": ["update information", "personal information", "info", "update", "update details"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/updateinfo"],
+            "responses": ["https://cse545group2.live/patient/updateinfo"],
             "context": [""]
         },
         {
             "tag": "book",
             "patterns": ["book","book an appointment", "schedule", "schedule an appointment", "book appointment"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/bookappointment"],
+            "responses": ["https://cse545group2.live/patient/bookappointment"],
             "context": [""]
         },
         {
             "tag": "schedule",
             "patterns": ["schedule", "book an appointment", "schedule", "schedule an appointment", "book appointment"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/bookappointment"],
+            "responses": ["https://cse545group2.live/patient/bookappointment"],
             "context": [""]
         },
         {
             "tag": "diagnosis",
             "patterns": ["diagnosis", "diagnosis report", "where can I find my diagnosis reports?"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewAllDiagnosisReports"],
+            "responses": ["https://cse545group2.live/patient/viewAllDiagnosisReports"],
             "context": [""]
         },
         {
             "tag": "pay",
             "patterns": ["make","make payment", "make payments"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewPendingPayments"],
+            "responses": ["https://cse545group2.live/patient/viewPendingPayments"],
             "context": [""]
         },
         {
             "tag": "request",
             "patterns": ["insurance request","raise", "insurance raise", "insurance raise request", "insurance request", "insurance query"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/getInsuranceDetails"],
+            "responses": ["https://cse545group2.live/patient/getInsuranceDetails"],
             "context": [""]
         },
         {
             "tag": "claim",
             "patterns": ["claim", "claims", "insurance claim", "insurance claims", "view claims"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewClaimHistory"],
+            "responses": ["https://cse545group2.live/patient/viewClaimHistory"],
             "context": [""]
         },
         {
             "tag": "appointment",
             "patterns": ["view appointments", "see appointments", "appointments"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewAppointmentHistory"],
+            "responses": ["https://cse545group2.live/patient/viewAppointmentHistory"],
             "context": [""]
         },
         {
             "tag": "payment",
             "patterns": ["view payment", "view payments", "see transaction"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewPaymentHistory"],
+            "responses": ["https://cse545group2.live/patient/viewPaymentHistory"],
             "context": [""]
         },
         {
             "tag": "patient",
             "patterns": ["home page", "patient portal"],
-            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/home"],
+            "responses": ["https://cse545group2.live/patient/home"],
             "context": [""]
         }
     ]
