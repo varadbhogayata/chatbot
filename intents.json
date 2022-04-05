@@ -62,68 +62,68 @@
         {
             "tag": "lab",
             "patterns": ["lab report", "report", "lab reports", "reports", "where can I find my lab reports?", "how do I find my lab reports?"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/viewLabTests", "Here is the URL - http://localhost:8080/patient/viewLabTests"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewLabTests"],
             "context": [""]
         },
 
         {
             "tag": "update",
             "patterns": ["update information", "personal information", "info", "update", "update details"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/updateinfo", "Here is the URL - http://localhost:8080/patient/updateinfo"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/updateinfo"],
             "context": [""]
         },
         {
             "tag": "book",
             "patterns": ["book","book an appointment", "schedule", "schedule an appointment", "book appointment"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/bookappointment", "Here is the URL - http://localhost:8080/patient/bookappointment"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/bookappointment"],
             "context": [""]
         },
         {
             "tag": "schedule",
             "patterns": ["schedule", "book an appointment", "schedule", "schedule an appointment", "book appointment"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/bookappointment", "Here is the URL - http://localhost:8080/patient/bookappointment"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/bookappointment"],
             "context": [""]
         },
         {
             "tag": "diagnosis",
             "patterns": ["diagnosis", "diagnosis report", "where can I find my diagnosis reports?"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/viewAllDiagnosisReports", "Here is the URL - http://localhost:8080/patient/viewAllDiagnosisReports"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewAllDiagnosisReports"],
             "context": [""]
         },
         {
             "tag": "pay",
             "patterns": ["make","make payment", "make payments"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/viewPendingPayments", "Here is the URL - http://localhost:8080/patient/viewPendingPayments"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewPendingPayments"],
             "context": [""]
         },
         {
             "tag": "request",
             "patterns": ["insurance request","raise", "insurance raise", "insurance raise request", "insurance request", "insurance query"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/getInsuranceDetails", "Here is the URL - http://localhost:8080/patient/getInsuranceDetails"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/getInsuranceDetails"],
             "context": [""]
         },
         {
             "tag": "claim",
             "patterns": ["claim", "claims", "insurance claim", "insurance claims", "view claims"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/viewClaimHistory", "Here is the URL - http://localhost:8080/patient/viewClaimHistory"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewClaimHistory"],
             "context": [""]
         },
         {
             "tag": "appointment",
             "patterns": ["view appointments", "see appointments", "appointments"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/viewAppointmentHistory", "Here is the URL - http://localhost:8080/patient/viewAppointmentHistory"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewAppointmentHistory"],
             "context": [""]
         },
         {
             "tag": "payment",
             "patterns": ["view payment", "view payments", "see transaction"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/viewPaymentHistory", "Here is the URL - http://localhost:8080/patient/viewPaymentHistory"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/viewPaymentHistory"],
             "context": [""]
         },
         {
             "tag": "patient",
             "patterns": ["home page", "patient portal"],
-            "responses": ["Please go to the URL: http://localhost:8080/patient/home", "Here is the URL - http://localhost:8080/patient/viewLabTests"],
+            "responses": ["http://securehospitalsystem-env.eba-mmby9hcm.us-west-1.elasticbeanstalk.com/patient/home"],
             "context": [""]
         }
     ]
